@@ -11,4 +11,4 @@
 4：等待2分钟左右，在右侧的Release里下载server.jar文件
 
 
-直达: https://github.com/kuisa/NanoLimbo/blob/main/src/main/java/ua/nanit/limbo/LimboConstants.java
+直达: https://github.com/kuisa/NanoLimbo/blob/main/src/main/java/ua/nanit/limbo/NanoLimbo.java
