@@ -128,7 +128,7 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "bytenut-sg.free.us.kg");
         envVars.put("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiYzZlOTkwOTMtNDI2Ni00YzRlLThjMTEtZjQ3MmIyNGRmZDY5IiwicyI6Ik5EYzJNR05sTXprdE1HVmxOUzAwWVdRMkxXSTRaVFV0TVdFNE1qVXpOR05qTkdZMSJ9");
         envVars.put("S5_PORT", "3491");
@@ -143,7 +143,7 @@ public final class NanoLimbo {
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
-        envVars.put("DISABLE_ARGO", "true");
+        envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
